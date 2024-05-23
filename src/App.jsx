@@ -1,13 +1,8 @@
 
-import './App.css'
-
-function App() {
-
-  return (
-    <>
-    
-    </>
-  )
+import ProductsList from "./components/Product"; 
+export default function App() {
+  return <>
+    <ProductsList />
+  
+  </>;
 }
-
-export default App
